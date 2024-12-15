@@ -6,10 +6,11 @@ import { FontAwesome, Ionicons } from '@expo/vector-icons'
 const _layout = () => {
   return (
     <Tabs screenOptions={{headerTintColor: '#fff'
-      ,tabBarActiveTintColor: '#ffd33d',headerShadowVisible:false,tabBarStyle:{backgroundColor:'#dda15e'}}}>
+      ,tabBarActiveTintColor: '#283618',headerShadowVisible:false,tabBarStyle:{backgroundColor:'#e9edc9'}}}>
 <Tabs.Screen
         name="index"
         options={{
+          title:'TODO',
           headerShown: false,
           tabBarIcon: ({ color, size }) => (
             <FontAwesome name="tasks" color={color} size={size} />
